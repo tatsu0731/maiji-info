@@ -1,0 +1,2 @@
+# maiji-info
+for website

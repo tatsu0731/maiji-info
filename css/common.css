@@ -148,6 +148,32 @@ button:hover {
  font-size: 14px;
 }
 
+.contents-container {
+ display: flex;
+ justify-content: center;
+ gap: 56px;
+}
+
+.content {
+ width: 200px;
+}
+
+.content-img {
+ width: 200px;
+ overflow: hidden;
+ border-radius: 10px;
+}
+
+.content-text {
+ margin-top: 8px;
+ font-size: 16px;
+ font-weight: bold;
+}
+
+.content-date {
+ font-size: 14px;
+}
+
 .btn-box {
  display: flex;
  justify-content: center;

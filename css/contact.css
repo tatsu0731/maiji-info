@@ -1,0 +1,29 @@
+/* common */
+h3 {
+margin-left: 20%;
+font-weight: bold;
+font-size: 16px;
+color: #5a6082;
+margin-bottom: 16px;
+}
+
+/* main */
+
+.contact-sec {
+ margin-top: 72px;
+ margin-bottom: 32px;
+}
+
+.contact-text-box {
+ margin-left: 24%;
+}
+
+.contact-text {
+ color: #53576a;
+ line-height: 2rem;
+ max-width: 70%;
+}
+
+.sponser {
+ font-weight: bold;
+}

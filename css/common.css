@@ -90,6 +90,23 @@ button:hover {
 }
 
 /* main */
+main {
+ position: relative;
+}
+
+.sns {
+ display: flex;
+ flex-direction: column;
+ row-gap: 16px;
+ position: fixed;
+ z-index: 999;
+ right: 32px;
+ top: 50%;
+}
+
+.icon {
+ width: 40px;
+}
 
 .main-info {
  display: flex;

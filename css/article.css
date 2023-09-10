@@ -1,0 +1,60 @@
+/* common */
+
+h1 {
+ margin-top: 144px;
+ font-size: 40px;
+ font-weight: bold;
+ color: #454765;
+}
+
+h2 {
+ margin-top: 64px;
+ font-size: 32px;
+ font-weight: bold;
+ color: #454765;
+ padding-left: 0;
+ padding-top: 16px;
+}
+
+p {
+ line-height: 2rem;
+ font-size: 16px;
+ color: #454556;
+}
+
+
+
+
+/* main */
+
+.article-main-text {
+ width: 960px;
+ margin: 0 auto;
+}
+
+.article-main-name {
+ margin-top: 32px;
+ color: #454765;
+}
+
+.article-main-date {
+ margin-bottom: 32px;
+ color: #909199;
+}
+
+.main-text {
+ margin-top: 72px;
+ margin-bottom: 144px;
+}
+
+.summary {
+ background-color: #bfbecb;
+ border-radius: 16px;
+ padding-bottom: 16px;
+ padding-right: 16px;
+ padding-left: 16px;
+}
+
+
+
+

@@ -1,0 +1,24 @@
+/* common */
+
+p {
+ font-size: 20px;
+ font-weight: 500;
+}
+
+/* main */
+
+.org {
+ max-width: 960px;
+ margin: 0 auto;
+ position: relative;
+}
+
+.org-name {
+ font-size: 63px;
+ font-weight: bold;
+ color: #7878be;
+ position: absolute;
+ margin-top: 460px;
+ margin-left: 32px;
+}
+

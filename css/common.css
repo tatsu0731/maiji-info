@@ -56,38 +56,6 @@ button:hover {
  padding-bottom: 12px;
 }
 
-/* sp */
-
-@media (max-width: 756px) {
-
- /* header */
- /* main */
- .text {
-  display: none;
- }
-
- .background-box-top {
-  display: none;
- }
-
- .background-box-middle {
-  display: none;
- }
-
- .background-box-bottom {
-  display: none;
- }
-
- .content-img {
- width: 480px;
- overflow: hidden;
- border-radius: 10px;
-}
-
- /* footer */
-}
-
-
 /* header-top */
 
 .header-box {
@@ -121,29 +89,6 @@ button:hover {
  color: #69699b;
 }
 
-.go-maiji {
- font-size: 20px;
- font-weight: bold;
- color: #4e4e69;
- display: flex;
- flex-direction: column;
- align-items: center;
- row-gap: 8px;
-}
-
-.maiji-logo {
- color: #fff;
- background-color: #3b4780;
- width: 32px;
- height: 24px;
- text-align: center;
-}
-
-.maiji-logo-text {
- font-weight: normal;
- font-size: 14px;
-}
-
 /* main */
 
 .main-info {
@@ -153,7 +98,7 @@ button:hover {
 
 .main-info-box {
  background-color: #dbdbdd;
- width: 880px;
+ width: 56%;
  margin-top: 32px;
  margin-bottom: 32px;
  margin-right: 32px;
@@ -305,7 +250,6 @@ button:hover {
  padding-top: 24px;
  padding-bottom: 72px;
  justify-content: center;
-
 }
 
 .footer-list {
@@ -314,12 +258,42 @@ button:hover {
  color: #69699b;
 }
 
-
-
-
-
 .copyright {
  text-align: center;
  color:  #69699b;
  font-size: 14px;
 }
+
+/* sp for article, organizations */
+
+@media (max-width: 756px) {
+
+ .list-box {
+  display: none;
+ }
+
+ .contents-container-top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+ }
+
+ .contents-container-bottom {
+  display: none;
+  flex-direction: column;
+  row-gap: 16px;
+ }
+ /* spで8記事は長いので消します */
+
+ .contents-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+ }
+
+ .text {
+  display: none;
+ }
+}
+
